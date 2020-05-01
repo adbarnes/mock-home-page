@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600,700,900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url(../images/bg-triangle.svg);
+  background-repeat: no-repeat;
+}
+
+.hero {
+  min-height: 400px;
+}
