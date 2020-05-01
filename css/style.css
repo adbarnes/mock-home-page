@@ -4,8 +4,51 @@ body {
   font-family: "Inter", sans-serif;
   background-image: url(../images/bg-triangle.svg);
   background-repeat: no-repeat;
+  
+  background-size: 100% auto;
+}
+header {
+  background-image: url(../images/pattern.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+}
+.hero {
+  min-height: 350px;
+  border-radius: 37px;
+  border-top-right-radius: 0;
+  max-width: 600px
 }
 
-.hero {
-  min-height: 400px;
+
+.primary-grey {
+  color: #50514F;
 }
+
+.primary-grey-bg {
+  background-color: #50514F;
+}
+
+.primary-red {
+  color:#F25F5C
+}
+
+.primary-red-bg {
+  background-color:#F25F5C
+}
+
+.primary-green {
+color: #70C1B3;
+}
+
+.primary-green-bg {
+  background-color: #70C1B3;
+  }
+
+  .primary-yellow {
+    color:#FFE066;
+  }
+
+  .primary-yellow-bg {
+    background-color:#FFE066;
+  }
